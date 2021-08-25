@@ -1,0 +1,896 @@
+
+<!DOCTYPE html>
+<html class="scripts-not-loaded" dir="ltr"   lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" media="screen" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css" />
+    <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/favicon-e10d657a73.ico" />
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/apple-touch-icon-585e5d997d.png" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b1511116db4d98f77f73c8b93336bc35/variables-8391c84da435c9cfceea2b2b3317ff66.css" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/common-ddfcf5a2ea.css" />
+  <meta name="apple-itunes-app" content="app-id=480883488" />
+<link rel="manifest" href="/web-app-manifest/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0D3858">
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/grade_summary-d208700df9.css" />
+  
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          if (!e.defaultPrevented) {
+            e.preventDefault()
+          }
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"Commons Favorites","id":25,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"Google Apps","id":101,"favorite":false,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","canvas_icon_class":null,"width":700,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Google Drive to Canvas\u003c/p\u003e\n"},{"name":"Canvas Studio","id":1264,"favorite":false,"url":"https://dpsnc.instructuremedia.com/lti/launch?custom_arc_launch_type=content_select\u0026custom_lti_use_case=editor_button","icon_url":"https://files.instructuremedia.com/logos/studio-logo-squid-tiny-electric.svg","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eVideo for Education\u003c/p\u003e\n"},{"name":"Kyte Learning","id":1465,"favorite":false,"url":"https://app.kytelearning.com/lti/launch","icon_url":"https://cdn.kytelearning.com/app/assets/kyte-icon.png","canvas_icon_class":null,"width":1280,"height":640,"use_tray":false,"description":"\u003cp\u003eKyte Learning offers individualized, self-paced, video lessons that let you learn the tech skills you need, in an affordable, flexible, and surprisingly enjoyable way.\u003c/p\u003e\n"},{"name":"SAS Curriculum Pathways","id":1502,"favorite":false,"url":"https://www.curriculumpathways.com/portal/Launch","icon_url":"https://www.curriculumpathways.com/portal/home/images/logoColor.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"description":"\u003cp\u003eCurriculum Pathways\u003c/p\u003e\n"},{"name":"YouTube","id":1569,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"Microsoft Office 365","id":1681,"favorite":false,"url":"https://office365-iad-prod.instructure.com/lti/rce-content-item","icon_url":"https://office365-iad-prod.instructure.com/images/office365_icon.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Office 365 to Canvas\u003c/p\u003e\n"},{"name":"GoOpenNC LTI Tool","id":1868,"favorite":false,"url":"https://goopennc.oercommons.org/lti/launch","icon_url":"https://goopennctest.oercommons.org/static/images/favicon.ico?2fb2898a9539","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"description":""},{"name":"Vimeo","id":1936,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=vimeo","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/vimeo_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eVimeo is a video sharing website on which users can upload, share, and view videos. The community of Vimeo includes indie, professional, and novice filmmakers.\u003c/p\u003e\n"},{"name":"Sibme App","id":2530,"favorite":false,"url":"https://canvas.sibme.com/sibme_lti_canvas/connect.php?type=editor_btn","icon_url":"https://canvas.sibme.com/sibme_lti_canvas/images/logo_16.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"description":"\u003cp\u003eSibme is an online video coaching and collaboration platform designed to improve professional practice.\u003c/p\u003e\n"},{"name":"Google Drive (LTI 1.3)","id":2690,"favorite":false,"url":"https://assignments.google.com/lti/e","icon_url":"https://www.gstatic.com/images/branding/product/1x/drive_16dp.png","canvas_icon_class":null,"width":690,"height":530,"use_tray":false,"description":"\u003cp\u003eCollect, analyze, and grade student work with Google Assignments\u003c/p\u003e\n"},{"name":"Khan Academy","id":3507,"favorite":true,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=khan_academy","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/khan_academy_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch for and embed Khan Academy lessons and exercise into course material. Khan Academy focuses on short lessons on math, science, etc. Uses the embedded player so students earn points for watching videos.\u003c/p\u003e\n"},{"name":"MackinVIA","id":8753,"favorite":false,"url":"https://www.mackinvia.com/lti/launch","icon_url":"https://www.mackinvia.com/images/mv-pinwheel.png","canvas_icon_class":null,"width":900,"height":900,"use_tray":false,"description":"\u003cp\u003eMackinVIA™ is a complete digital content management system created to provide schools with easy access to their collection of eBooks, digital audiobooks, online databases, approved web links, videos and more -- online and with mobile devices.\u003c/p\u003e\n"},{"name":"Adobe Spark","id":10773,"favorite":true,"url":"https://classroom.adobe.io/api/lti/redirect","icon_url":"https://classroom.adobe.io/templates/assets/spark_appicon_16.png","canvas_icon_class":null,"width":1010,"height":580,"use_tray":false,"description":"\u003cp\u003eAdobe Inc.\u003c/p\u003e\n"},{"name":"HMH Ed Linking Tool","id":12242,"favorite":false,"url":"https://api.eng.hmhco.com/lti-deep-linking/api/1.3.0/lti","icon_url":"https://s3.amazonaws.com/downloads.hmlt.hmco.com/Communications/Ed_Logo_Black.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":false,"description":"\u003cp\u003eHMH Ed Linking Tool\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net/br","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b1511116db4d98f77f73c8b93336bc35/variables-8391c84da435c9cfceea2b2b3317ff66.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b1511116db4d98f77f73c8b93336bc35/variables-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-06ece79da7.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/default/variables-high_contrast-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a311763d48.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"current_user_id":"18485","current_user_roles":["user","student"],"current_user_types":[],"current_user_disabled_inbox":false,"files_domain":"cluster365.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":"59860000000000001","k12":true,"use_responsive_layout":true,"use_rce_enhancements":true,"rce_auto_save":true,"use_rce_a11y_checker_notifications":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://dpsnc.instructure.com","DEEP_LINKING_LOGGING":null,"comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false},"DIRECT_SHARE_ENABLED":false,"FEATURES":{"cc_in_rce_video_tray":true,"featured_help_links":true,"rce_pretty_html_editor":true,"rce_better_file_downloading":true,"rce_better_file_previewing":true,"strip_origin_from_quiz_answer_file_references":true,"rce_buttons_and_icons":false,"important_dates":true,"feature_flag_filters":false,"responsive_awareness":true,"responsive_misc":true,"product_tours":false,"module_dnd":true,"files_dnd":true,"unpublished_courses":true,"usage_rights_discussion_topics":true,"inline_math_everywhere":true,"granular_permissions_manage_users":true,"rce_limit_init_render_on_page":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"18485","display_name":"Andrew Stuart","avatar_image_url":"https://dpsnc.instructure.com/images/messages/avatar-50.png","html_url":"https://dpsnc.instructure.com/about/18485","pronouns":null,"avatar_is_fallback":true},"page_view_update_url":"/page_views/d65c57c1-3440-439d-90a6-15a1be485daf?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiZDY1YzU3YzEtMzQ0MC00MzlkLTkwYTYtMTVhMWJlNDg1ZGFmIiwidSI6NTk4NjAwMDAwMDAwMTg0ODUsImMiOiIyMDIxLTA4LTI1VDE2OjU2OjMxLjMwWiJ9.AbrcsPA9E36t9CWUc-FHoDVpHi1yVqt8vyGiNjLPd28","context_asset_string":"course_106308","ping_url":"https://dpsnc.instructure.com/api/v1/courses/106308/ping","TIMEZONE":"America/New_York","CONTEXT_TIMEZONE":"America/New_York","LOCALE":"en","BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"submissions":[{"assignment_id":"1065203","excused":false,"score":null,"workflow_state":"unsubmitted"},{"assignment_id":"1065202","excused":false,"score":null,"workflow_state":"unsubmitted"},{"assignment_id":"1065201","excused":false,"score":null,"workflow_state":"unsubmitted"},{"assignment_id":"1065207","excused":false,"score":null,"workflow_state":"unsubmitted"}],"assignment_groups":[{"id":"142498","rules":{},"group_weight":0.0,"assignments":[{"id":"1065201","submission_types":["online_url","media_recording","online_upload"],"points_possible":0.0,"due_at":"2021-08-25T23:59:59-04:00","omit_from_final_grade":false,"muted":true},{"id":"1065207","submission_types":["external_tool"],"points_possible":0.0,"due_at":"2021-08-25T23:59:59-04:00","omit_from_final_grade":false,"muted":true}]}],"assignment_sort_options":[["Assignment Group","assignment_group"],["Due Date","due_at"],["Module","module"],["Title","title"]],"group_weighting_scheme":null,"show_total_grade_as_points":false,"grade_calc_ignore_unposted_anonymous_enabled":true,"grading_scheme":[["A",0.94],["A-",0.9],["B+",0.87],["B",0.84],["B-",0.8],["C+",0.77],["C",0.74],["C-",0.7],["D+",0.67],["D",0.64],["D-",0.61],["F",0.0]],"current_grading_period_id":"124","current_assignment_sort_order":"due_at","grading_period_set":{"id":"109","course_id":null,"account_id":"1","created_at":"2021-07-13T16:03:15-04:00","updated_at":"2021-07-13T16:03:15-04:00","workflow_state":"active","title":"2021-2022 Traditional Calendar Schools Grading Periods","weighted":false,"display_totals_for_all_grading_periods":false,"root_account_id":"1","grading_periods":[{"id":"124","weight":null,"start_date":"2021-08-24T00:00:00-04:00","end_date":"2021-10-26T23:59:59-04:00","title":"2021-2022 Traditional Schools Q1","close_date":"2021-10-29T23:59:59-04:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"125","weight":null,"start_date":"2021-10-27T00:00:00-04:00","end_date":"2022-01-14T23:59:59-05:00","title":"2021-2022 Traditional Schools Q2","close_date":"2022-01-18T23:59:59-05:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"126","weight":null,"start_date":"2022-01-20T00:00:00-05:00","end_date":"2022-03-25T23:59:59-04:00","title":"2021-2022 Traditional Schools Q3","close_date":"2022-04-05T23:59:59-04:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"127","weight":null,"start_date":"2022-04-04T00:00:00-04:00","end_date":"2022-06-10T23:59:59-04:00","title":"2021-2022 Traditional Schools Q4","close_date":"2022-06-10T23:59:59-04:00","is_last":true,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}}]},"grading_period":{"id":"124","weight":null,"start_date":"2021-08-24T00:00:00-04:00","end_date":"2021-10-26T23:59:59-04:00","title":"2021-2022 Traditional Schools Q1","close_date":"2021-10-29T23:59:59-04:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},"grading_periods":[{"id":"124","weight":null,"start_date":"2021-08-24T00:00:00-04:00","end_date":"2021-10-26T23:59:59-04:00","title":"2021-2022 Traditional Schools Q1","close_date":"2021-10-29T23:59:59-04:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"125","weight":null,"start_date":"2021-10-27T00:00:00-04:00","end_date":"2022-01-14T23:59:59-05:00","title":"2021-2022 Traditional Schools Q2","close_date":"2022-01-18T23:59:59-05:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"126","weight":null,"start_date":"2022-01-20T00:00:00-05:00","end_date":"2022-03-25T23:59:59-04:00","title":"2021-2022 Traditional Schools Q3","close_date":"2022-04-05T23:59:59-04:00","is_last":false,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}},{"id":"127","weight":null,"start_date":"2022-04-04T00:00:00-04:00","end_date":"2022-06-10T23:59:59-04:00","title":"2021-2022 Traditional Schools Q4","close_date":"2022-06-10T23:59:59-04:00","is_last":true,"is_closed":false,"permissions":{"read":true,"create":false,"update":false,"delete":false}}],"courses_with_grades":[{"id":"74951","nickname":"Social Studies Grade 8 - 40082Y0 - 320370-20-21 - Symes","url":"/courses/74951/grades","grading_period_set_id":"103"},{"id":"75227","nickname":"English I - 10212Y0Y - 320370-20-21 - Miske","url":"/courses/75227/grades","grading_period_set_id":"103"},{"id":"75684","nickname":"Visual Arts Grade 8 - 54082Y0 - 320370-S2 - Wright","url":"/courses/75684/grades","grading_period_set_id":"103"},{"id":"75725","nickname":"Health and Physical Education: Grade 8 - 60482Y0 - 320370-S2 - Embree","url":"/courses/75725/grades","grading_period_set_id":"103"},{"id":"75839","nickname":"Exploring Food and Agricultural Products - AU022YC - 320370-Q2 - Dickerson","url":"/courses/75839/grades","grading_period_set_id":"103"},{"id":"75915","nickname":"Exploring Technology - TE012YA - 320370-S1 - Yarborough","url":"/courses/75915/grades","grading_period_set_id":"103"},{"id":"76205","nickname":"Math Grade 8 - 20082Y0YP - 320370-20-21 - Musick","url":"/courses/76205/grades","grading_period_set_id":"103"},{"id":"76284","nickname":"Science - Grade 8 - 30082Y0 - 320370-20-21 - Botts","url":"/courses/76284/grades","grading_period_set_id":"103"},{"id":"80431","nickname":"Rogers-Herr Library","url":"/courses/80431/grades","grading_period_set_id":"103"},{"id":"88610","nickname":"Practice","url":"/courses/88610/grades","grading_period_set_id":null},{"id":"91430","nickname":"Dreamseeker Discovery","url":"/courses/91430/grades","grading_period_set_id":null},{"id":"106259","nickname":"Food and Nutrition I - FN412X0 - 320312-S1 - Mansfield","url":"/courses/106259/grades","grading_period_set_id":"109"},{"id":"106308","nickname":"Biology Honors - 33205X0YFA - 320312-21-22 - Holt","url":"/courses/106308/grades","grading_period_set_id":"109"},{"id":"106341","nickname":"NC Math 1 - 21092X0 - 320312-S1 - Valder","url":"/courses/106341/grades","grading_period_set_id":"109"},{"id":"106343","nickname":"English II Honors - 10225X0 - 320312-S1 - Lowman","url":"/courses/106343/grades","grading_period_set_id":"109"},{"id":"106497","nickname":"World History Honors - 43035X0YFA - 320312-21-22 - Murray","url":"/courses/106497/grades","grading_period_set_id":"109"},{"id":"117575","nickname":"Introduction to Anatomy - 30202X0IA - 320312-S1 - Smith","url":"/courses/117575/grades","grading_period_set_id":"109"}],"effective_due_dates":{"1065203":{"18485":{"due_at":"2021-08-27T23:59:59-04:00","grading_period_id":"124"}},"1065201":{"18485":{"due_at":"2021-08-25T23:59:59-04:00","grading_period_id":"124"}},"1065202":{"18485":{"due_at":"2021-08-27T23:59:59-04:00","grading_period_id":"124"}},"1065207":{"18485":{"due_at":"2021-08-25T23:59:59-04:00","grading_period_id":"124"}}},"exclude_total":false,"gradebook_non_scoring_rubrics_enabled":true,"rubric_assessments":[],"rubrics":[],"save_assignment_order_url":"https://dpsnc.instructure.com/courses/106308/save_assignment_order","student_outcome_gradebook_enabled":false,"student_id":"18485","students":[{"id":"18485","name":"Andrew Stuart","updated_at":"2021-08-25T12:53:10-04:00","sortable_name":"Stuart, Andrew","workflow_state":"registered","time_zone":"America/New_York","created_at":"2015-11-16T21:52:10-05:00","avatar_image_url":null,"avatar_image_source":null,"avatar_image_updated_at":null,"school_name":null,"school_position":null,"short_name":"Andrew Stuart","deleted_at":null,"show_user_services":true,"page_views_count":0,"reminder_time_for_due_dates":172800,"reminder_time_for_grading":0,"storage_quota":null,"visible_inbox_types":null,"last_user_note":null,"subscribe_to_emails":null,"preferences":{"accepted_terms":"2020-08-17T11:44:48Z","custom_colors":"external","dashboard_positions":"external","selected_calendar_contexts":"external","closed_notifications":[],"collapse_global_nav":false},"avatar_state":"none","locale":null,"browser_locale":"en","unread_conversations_count":0,"stuck_sis_fields":[],"public":null,"initial_enrollment_type":null,"crocodoc_id":null,"last_logged_out":null,"lti_context_id":"8ae6896b68584429288bfe11a66238876eb17fc1","turnitin_id":null,"lti_id":"c56006a0-db4d-41df-9816-289c9e2db87e","pronouns":null,"root_account_ids":["1"],"delete_me_frd":false,"merged_into_user_id":null}],"outcome_proficiency":{"ratings":[{"description":"Exceeds Mastery","points":4.0,"mastery":false,"color":"008EE2"},{"description":"Mastery","points":3.0,"mastery":true,"color":"00AC18"},{"description":"Near Mastery","points":2.0,"mastery":false,"color":"FAB901"},{"description":"Below Mastery","points":1.0,"mastery":false,"color":"D97900"},{"description":"No Evidence","points":0.0,"mastery":false,"color":"EE0612"}]},"badge_counts":{"submissions":0},"notices":[],"active_context_tab":"grades"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","responsive_layout_normal_contrast","responsive_layout_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl","responsive_layout_normal_contrast_rtl","responsive_layout_high_contrast_rtl"],{"10":["5bbee90ed9",0,0,0,"f8054b5691",4,4,4],"15":["fc26aa5fd4",0,0,0,"f904416063",4,4,4],"19":["df5777ed9c"],"61":["c34731ada0","f405852bb2",0,1,"a4eda69452","3fd9943b9a",4,5],"64":["21378f7526",0,0,0,"f84a886b19",4,4,4],"67":["8b57f54e71",0,0,0,"43833dde85",4,4,4],"71":["3c9717147d","35a72c2ea4",0,1,"ad02073327","9605e27890",4,5],"06":["4526e0502d",0,0,0,"4ca4dedba8",4,4,4],"f0":["7c947dce20",0,0,0,0,0,0,0],"c8":["ce38e5e01d","b9068fb85c",0,1,"abe25b43ac","891d385c6e",4,5],"1e":["a4ce6b99b5","39d2986ce0","93968ae330","541e45feba","e12dd92511","ba63dd3b58","8594db4d82","e291bb53e9"],"b3":["8ebc71ebc3","cf8efa05c8",0,1,"4efdc93a21","fd6d3a9780",4,5],"4f":["0a2c3dcf2f",0,0,0,"79668e6396",4,4,4],"0c":["c26e82abac",0,0,0,"b71e9cbd6d",4,4,4],"da":["b218c8c3f2","edbd1b5e83",0,1,"312312508c","dfb2d13098",4,5],"1d":["a3bfcb7961",0,0,0,"90682b3bbe",4,4,4],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0,0,0,0,0],"2b":["87b3ec4aa1",0,0,0,"39522697fb",4,4,4],"2c":["6d919206cd",0,0,0,0,0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,0,0,"59e7c22304",4,4,4],"6f":["363cd4d36b",0,0,0,0,0,0,0],"c5":["ebf0e1382f","7f587d9a8a",0,1,"afbdabf23d","0d398196a8",4,5],"f2":["51574f9b13"]}]
+;
+  </script>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b1511116db4d98f77f73c8b93336bc35/variables-8391c84da435c9cfceea2b2b3317ff66.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/New_York-c3226761e3.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/New_York-c3226761e3.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-142e90de75.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b1511116db4d98f77f73c8b93336bc35/variables-8391c84da435c9cfceea2b2b3317ff66.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/New_York-c3226761e3.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/New_York-c3226761e3.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-142e90de75.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/0-c-d122efd52f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/1-c-3b35301a94.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/2-c-d3eede0f8d.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/3-c-5d745b6aaa.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/4-c-e30a14ede8.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/5-c-6aa506df4f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/6-c-1e1359c836.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/7-c-9b25472ce7.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/8-c-1de49f5daa.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/9-c-852aab12e6.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/10-c-76e9700f4f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/12-c-8e44d6013e.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/13-c-43eb7b0da7.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/14-c-89932b56a2.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/19-c-a0b59a293c.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/25-c-6c69c308fe.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/31-c-f9e5792f22.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/41-c-7e635556e9.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/43-c-fde040487f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/44-c-8138e35319.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/56-c-ee924ab81d.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/51-c-26d137e801.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/54-c-be09caa766.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/90-c-de4115280c.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/94-c-96f64e27bd.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/111-c-e62e1965b9.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/101-c-ea41d5b664.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/143-c-50a7bd1af8.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/grade_summary-c-6e854528cb.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/11-c-ad857f1082.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/15-c-fe7c32400b.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/26-c-d305539b69.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/59-c-097eb06bcc.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/rubric_assessment-c-62d93d58c2.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/progress_pill-c-d20d975d5e.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('grade_summary');
+(window.bundles || (window.bundles = [])).push('rubric_assessment');
+(window.bundles || (window.bundles = [])).push('progress_pill');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Grades for Andrew Stuart: Biology Honors - 33205X0YFA - 320312-21-22 - Holt</title>
+  
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "UA-9138420-1", 'auto');
+      ga('set', 'title', "Grades for Student");
+      ga('set', 'userId', "4f70bbcb2f54f9f8cd958394a9eca501");
+    ga('set', 'dimension1', "100");
+    ga('set', 'dimension2', "00");
+    ga('set', 'dimension3', "0");
+    ga('set', 'dimension4', "K12");
+    ga('send', 'pageview');
+    (window.requestIdleCallback || window.setTimeout)(function(){
+      var s=document.createElement('script'), m=document.getElementsByTagName('script')[0]
+      s.async=1; s.src='https://www.google-analytics.com/analytics.js'
+      m.parentNode.insertBefore(s,m)
+    });
+  </script>
+
+
+
+</head>
+
+<body class="with-left-side course-menu-expanded with-right-side grades primary-nav-expanded full-width context-course_106308 responsive_awareness responsive_misc">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+    <header id="mobile-header" class="no-print">
+      <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+        <i class="icon-solid icon-hamburger"></i>
+        <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+        <span class="screenreader-only">Dashboard</span>
+      </button>
+      <div class="mobile-header-space"></div>
+        <a class="mobile-header-title expandable" href="/courses/106308" role="button" aria-controls="mobileContextNavContainer">
+          <div>Biology Honors - 33205X0YFA - 320312-21-22 - Holt</div>
+            <div>Andrew Stuart</div>
+        </a>
+        <div class="mobile-header-space"></div>
+        <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+          <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+        </button>
+    </header>
+    <nav id="mobileContextNavContainer"></nav>
+  <header id="header" class="ic-app-header no-print ">
+    <a href="#content" id="skip_navigation_link">Skip To Content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://dpsnc.instructure.com/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container">
+                  <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                    <img src="https://dpsnc.instructure.com/images/messages/avatar-50.png" alt="Andrew Stuart" />
+                  </div>
+                  <span class="menu-item__badge"></span>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </button>
+            </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="https://dpsnc.instructure.com/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg width="36" height="36" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><title>Oval-95</title><path d="M21.87 16.98l7.276-7.276c.78-.78.777-2.044-.004-2.825a1.993 1.993 0 0 0-2.825-.005l-7.265 7.265A4.005 4.005 0 0 0 14 18a4 4 0 1 0 7.87-1.02zM18 36c9.94 0 18-8.06 18-18S27.94 0 18 0 0 8.06 0 18s8.06 18 18 18zM2 18a1 1 0 0 1 .99-1h4.02c.546 0 .99.444.99 1a1 1 0 0 1-.99 1H2.99A.993.993 0 0 1 2 18zM17 3.99c0-.546.444-.99 1-.99a1 1 0 0 1 1 .99v4.02c0 .546-.444.99-1 .99a1 1 0 0 1-1-.99V3.99zM6.7 8.116a.993.993 0 0 1 .007-1.408A1 1 0 0 1 8.115 6.7l2.84 2.842a.993.993 0 0 1-.005 1.408 1 1 0 0 1-1.408.006l-2.84-2.84zM28 18a1 1 0 0 1 .99-1h4.02c.546 0 .99.444.99 1a1 1 0 0 1-.99 1h-4.02a.993.993 0 0 1-.99-1zm-10 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+              <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg width="34" height="36" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 34 36" xmlns="http://www.w3.org/2000/svg"><title>icon-courses</title><path d="M4 31v3c0 1.11.892 2 1.992 2h26.016A2 2 0 0 0 34 34V2c0-1.11-.892-2-1.992-2H5.992A2 2 0 0 0 4 2v3h1.01A2.993 2.993 0 0 1 8 8a3 3 0 0 1-2.99 3H4v4h1.01A2.993 2.993 0 0 1 8 18a3 3 0 0 1-2.99 3H4v4h1.01A2.993 2.993 0 0 1 8 28a3 3 0 0 1-2.99 3H4zm8-23h14v8H12V8zm2 2h10v4H14v-4zM0 8c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 8c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 8zm0 10c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 18c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 18zm0 10c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 28c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 28z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Courses
+                </div>
+              </button>
+            </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg width="36" height="34" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 34" xmlns="http://www.w3.org/2000/svg"><title>icon-calendar</title><path d="M24 3H13v1.5C13 6.436 11.438 8 9.5 8 7.567 8 6 6.44 6 4.5V3H2a2 2 0 0 0-2 1.998V9h36V4.998C36 3.894 35.11 3 34 3h-3v1.5C31 6.436 29.438 8 27.5 8 25.567 8 24 6.44 24 4.5V3zM0 11h36v21c0 1.104-.89 2-2 2H2c-1.105 0-2-.902-2-2V11zm4 3h4v4H4v-4zm6 12h4v4h-4v-4zm-6-6h4v4H4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6 0h4v4h-4v-4zM8 1.5v3C8 5.336 8.672 6 9.5 6c.834 0 1.5-.67 1.5-1.5v-3C11 .664 10.328 0 9.5 0 8.666 0 8 .67 8 1.5zm18 0v3c0 .835.672 1.5 1.5 1.5.834 0 1.5-.67 1.5-1.5v-3c0-.835-.672-1.5-1.5-1.5-.834 0-1.5.67-1.5 1.5z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container">
+                <span aria-hidden="true"><svg width="36" height="37" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 37" xmlns="http://www.w3.org/2000/svg"><title>icon-inbox</title><path d="M3 17.962V0h30v17.962l-9.2 6.016-3.288-2.17c-1.39-.915-3.636-.914-5.024 0L12.2 23.98 3 17.962zM0 35l16.34-10.893c.916-.61 2.41-.607 3.32 0L36 35v2H0v-2zm36-16v13l-10-6.5L36 19zM0 19v13l10-6.5L0 19zM8 6c0-.552.456-1 .995-1h8.01c.55 0 .995.444.995 1 0 .552-.456 1-.995 1h-8.01A.995.995 0 0 1 8 6zm0 5c0-.552.455-1 .992-1h18.016c.548 0 .992.444.992 1 0 .552-.455 1-.992 1H8.992A.993.993 0 0 1 8 11zm0 5c0-.552.455-1 .992-1h18.016c.548 0 .992.444.992 1 0 .552-.455 1-.992 1H8.992A.993.993 0 0 1 8 16z" fill="currentColor" fill-rule="evenodd"/></svg>
+</span>
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item" >
+              <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
+</svg>
+                </div>
+                <div class="menu-item__text">
+                  History
+                </div>
+              </button>
+            </li>
+            
+
+    <li id="context_external_tool_1264_menu_item" class="globalNavExternalTool menu-item ic-app-header__menu-list-item">
+      <a class='ic-app-header__menu-list-link' href="/accounts/1/external_tools/1264?launch_type=global_navigation">
+          <svg version="1.1" class="ic-icon-svg ic-icon-svg--lti menu-item__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+            <path d="M37.5331419,41.3325083 L25.3997411,41.3325083 L25.3997411,52.8756632 C27.5972597,53.6451225 29.1733531,55.7378472 29.1733531,58.198822 C29.1733531,61.3127847 26.6499049,63.8371501 23.5370738,63.8371501 C20.4242427,63.8371501 17.9007945,61.3127847 17.9007945,58.198822 C17.9007945,55.7378472 19.4768879,53.6451225 21.6744065,52.8756632 L21.6744065,41.3325083 L17.5706263,41.3325083 L17.5717453,47.9192726 C17.5717453,50.4825483 15.4945548,52.5604939 12.9322104,52.5604939 L10.9667199,52.5588751 C10.2051449,54.7710384 8.10625368,56.3604121 5.63627929,56.3604121 C2.52344819,56.3604121 2.84217094e-14,53.8360466 2.84217094e-14,50.722084 C2.84217094e-14,47.6081214 2.52344819,45.0837559 5.63627929,45.0837559 C8.08603407,45.0837559 10.1707563,46.6472143 10.9477485,48.8310912 L12.9905507,48.8310912 C13.4625615,48.8310912 13.8452018,48.4483118 13.8452018,47.9761294 L13.8452018,41.3325083 L5.65400042,41.3325083 C4.57511859,41.3325083 3.70051205,40.4575839 3.70051205,39.3783099 L3.70051205,1.95419847 C3.70051205,0.874924458 4.57511859,-1.42108547e-14 5.65400042,-1.42108547e-14 L57.2376164,-1.42108547e-14 C58.3164983,-1.42108547e-14 59.1911048,0.874924458 59.1911048,1.95419847 L59.1911048,39.3783099 C59.1911048,40.4575839 58.3164983,41.3325083 57.2376164,41.3325083 L49.085452,41.3325083 L49.085452,47.9761294 C49.085452,48.4483118 49.4680923,48.8310912 49.9401031,48.8310912 L51.9829054,48.8310912 C52.7598976,46.6472143 54.8446197,45.0837559 57.2943745,45.0837559 C60.4072056,45.0837559 62.9306538,47.6081214 62.9306538,50.722084 C62.9306538,53.8360466 60.4072056,56.3604121 57.2943745,56.3604121 C54.8244001,56.3604121 52.725509,54.7710384 51.9639339,52.5588751 L49.9996524,52.5604938 C47.436099,52.5604939 45.3589085,50.4825483 45.3589085,47.9192726 L45.3600275,41.3325083 L41.2584765,41.3325083 L41.2584765,52.8756632 C43.4559951,53.6451225 45.0320885,55.7378472 45.0320885,58.198822 C45.0320885,61.3127847 42.5086403,63.8371501 39.3958092,63.8371501 C36.2829781,63.8371501 33.7595299,61.3127847 33.7595299,58.198822 C33.7595299,55.7378472 35.3356233,53.6451225 37.5331419,52.8756632 L37.5331419,41.3325083 Z M39.4407163,60.0484002 C40.4618389,60.0484002 41.2896223,59.2203158 41.2896223,58.198822 C41.2896223,57.1773282 40.4618389,56.3492439 39.4407163,56.3492439 C38.4195937,56.3492439 37.5918102,57.1773282 37.5918102,58.198822 C37.5918102,59.2203158 38.4195937,60.0484002 39.4407163,60.0484002 Z M23.5819809,60.0484002 C24.6031035,60.0484002 25.4308869,59.2203158 25.4308869,58.198822 C25.4308869,57.1773282 24.6031035,56.3492439 23.5819809,56.3492439 C22.5608582,56.3492439 21.7330748,57.1773282 21.7330748,58.198822 C21.7330748,59.2203158 22.5608582,60.0484002 23.5819809,60.0484002 Z M57.3392816,52.5716621 C58.3604042,52.5716621 59.1881877,51.7435778 59.1881877,50.722084 C59.1881877,49.7005902 58.3604042,48.8725058 57.3392816,48.8725058 C56.318159,48.8725058 55.4903755,49.7005902 55.4903755,50.722084 C55.4903755,51.7435778 56.318159,52.5716621 57.3392816,52.5716621 Z M5.59137222,52.5716621 C6.61249484,52.5716621 7.44027829,51.7435778 7.44027829,50.722084 C7.44027829,49.7005902 6.61249484,48.8725058 5.59137222,48.8725058 C4.57024959,48.8725058 3.74246615,49.7005902 3.74246615,50.722084 C3.74246615,51.7435778 4.57024959,52.5716621 5.59137222,52.5716621 Z M30.1554353,12.9293586 L35.7525093,16.2831044 C36.070684,16.5163802 36.2591714,16.8906762 36.2591714,17.2892282 C36.2591714,17.6877801 36.070684,18.0620761 35.7525093,18.2953519 L30.1554353,21.6490977 C29.7776345,21.8706324 29.3121961,21.8707698 28.9342686,21.6494581 C28.5563411,21.4281465 28.3232712,21.0189676 28.3227651,20.575899 L28.3227651,14.0025573 C28.3232712,13.5594887 28.5563411,13.1503099 28.9342686,12.9289982 C29.3121961,12.7076865 29.7776345,12.7078239 30.1554353,12.9293586 Z M55.6445081,31.031948 L55.6445081,4.52360758 C55.6445081,3.98397057 55.2072048,3.54650834 54.6677639,3.54650834 L8.22385298,3.54650834 C7.68441206,3.54650834 7.24710879,3.98397057 7.24710879,4.52360758 L7.24710879,31.031948 L55.6445081,31.031948 Z M55.6445081,34.5784563 L7.24710879,34.5784563 L7.24710879,36.8093831 C7.24710879,37.3490201 7.68441206,37.7864824 8.22385298,37.7864824 L54.6677639,37.7864824 C55.2072048,37.7864824 55.6445081,37.3490201 55.6445081,36.8093831 L55.6445081,34.5784563 Z"/>
+          </svg>
+        <div class="menu-item__text">
+          Studio
+        </div>
+      </a>
+    </li>
+    <li id="context_external_tool_1747_menu_item" class="globalNavExternalTool menu-item ic-app-header__menu-list-item">
+      <a class='ic-app-header__menu-list-link' href="/accounts/1/external_tools/1747?launch_type=global_navigation">
+          <svg version="1.1" class="ic-icon-svg ic-icon-svg--lti menu-item__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+            <path d="M9.95 3.318a9.948 9.948 0 019.95 9.95 20.56 20.56 0 005.928 14.47L36.26 38.17a20.568 20.568 0 0014.472 5.93c5.494 0 9.948 4.453 9.948 9.947 0 5.494-4.453 9.948-9.947 9.949-5.494 0-9.948-4.452-9.949-9.946a20.568 20.568 0 00-5.928-14.47L24.422 29.146a20.568 20.568 0 00-14.472-5.93 9.95 9.95 0 110-19.9v.002zm0 44.1a6.632 6.632 0 11.23 13.262 6.632 6.632 0 01-.23-13.262zM50.732 0a13.269 13.269 0 11-.002 26.538c-7.328 0-13.269-5.942-13.268-13.27C37.462 5.94 43.404-.001 50.732 0z"/>
+          </svg>
+        <div class="menu-item__text">
+          Mastery
+        </div>
+      </a>
+    </li>
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"/></svg>
+
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Help
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button
+              id="primaryNavToggle"
+              class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle"
+              aria-label="Minimize global navigation"
+              title="Minimize global navigation"
+            >
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"/>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+    <div id="global_nav_tour"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+          <div class="ic-app-crumbs">
+          <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="/"><span class="ellipsible">      <i class="icon-home"
+         title="My Dashboard">
+        <span class="screenreader-only">My Dashboard</span>
+      </i>
+</span></a></li><li><a href="/courses/106308"><span class="ellipsible">Biology Honors - 33205X0YFA - 320312-21-22 - Holt</span></a></li><li><a href="/courses/106308/grades"><span class="ellipsible">Grades</span></a></li><li><a href="/courses/106308/grades/18485"><span class="ellipsible">Andrew Stuart</span></a></li></ul></nav>
+        </div>
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side"
+          class="ic-app-course-menu list-view"
+          style="display: block"
+          >
+              <span id="section-tabs-header-subtitle" class="ellipsis">2021/2022 - C E Jordan High - 2021-2022</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="/courses/106308" class="home">Home</a></li><li class="section"><a href="/courses/106308/announcements" class="announcements">Announcements</a></li><li class="section"><a href="/courses/106308/modules" class="modules">Modules</a></li><li class="section"><a href="/courses/106308/discussion_topics" class="discussions">Discussions</a></li><li class="section"><a href="/courses/106308/assignments/syllabus" class="syllabus">Syllabus</a></li><li class="section"><a href="/courses/106308/external_tools/2" class="context_external_tool_2">Chat</a></li><li class="section"><a href="/courses/106308/external_tools/101" class="context_external_tool_101">Google Drive</a></li></ul></nav>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            <div id="grade-summary-content" style="display: none;">
+
+  <div id="print-grades-container" class="ic-Action-header">
+    <div class="ic-Action-header__Primary">
+      <h1 class="ic-Action-header__Heading">
+        Grades for Andrew Stuart
+      </h1>
+        <div class="col-xs-6" ></div>
+    </div>
+
+    <div id="print-grades-button-container" class="ic-Action-header__Secondary">
+      <a role="button" id="print-grades-button" class="Button print-grades icon-printer" href="javascript:window.print()">
+        Print Grades
+      </a>
+    </div>
+  </div>
+
+  <div id="GradeSummarySelectMenuGroup"></div>
+
+  <div id="assignments">
+    <span id="aria-announcer" class="hide-text affix" aria-live="polite"></span>
+  <table
+    id="grades_summary"
+    class="editable ic-Table ic-Table--hover-row "
+  >
+      <caption class="screenreader-only">You can view your grades based on What-If scores so that you know how grades will be affected by upcoming or resubmitted assignments. You can test scores for an assignment that already includes a score, or an assignment that has yet to be graded.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Due</th>
+        <th scope="col" class="status">Status</th>
+        <th scope="col" class="assignment_score">Score</th>
+        <th scope="col" class="possible">Out of</th>
+        <th scope="col"><span class="screenreader-only">Details</span></th>
+        <th scope="col"><span class="screenreader-only">Submission Progress Status</span></th>
+      </tr>
+    </thead>
+    <tr class="student_assignment editable"
+        data-muted="false"
+        id="submission_1065201"
+        >
+
+        <th class="title" scope="row">
+            <a href="/courses/106308/assignments/1065201/submissions/18485">8/25/21 Ecological Footprint Activity </a>
+            <div class="context">Assignments</div>
+        </th>
+        <td class="due">
+            Aug 25 by 11:59pm
+        </td>
+
+        <td class="status" scope="row">
+        </td>
+
+        <td class="assignment_score" title="Click to test a different score">
+          <div style="position: relative; height: 100%;" class="score_holder">
+              <span class="assignment_presenter_for_submission" style="display: none;"></span>
+              <span class="react_pill_container"></span>
+            <span class="tooltip">
+              <span
+                class="grade"
+                  tabindex="100"
+              >
+                <span class="tooltip_wrap right" aria-hidden="true">
+                    <span class="tooltip_text score_teaser">
+                        Click to test a different score
+                    </span>
+                </span>
+                  <span class="screenreader-only" role="button">
+                    Click to test a different score
+                  </span>
+                  -
+              </span>
+            </span>
+            <div style="display: none;">
+              <!-- Store the original points so we don't need to parse and guess at locale -->
+              <span class="original_points">
+                
+              </span>
+              <!-- Store the original score so that we can retrieve it after any "What-If" calculations -->
+              <span class="original_score">
+                 
+              </span>
+              <!-- Store the current score so that it can persist between multiple "What-If" calculations -->
+              <span class="what_if_score">
+                 
+              </span>
+              <!-- Load any previously saved "What-If" scores -->
+              <span class="student_entered_score">
+                
+              </span>
+              <span class="submission_status">
+                unsubmitted
+              </span>
+              <span class="assignment_group_id">142498</span>
+              <span class="assignment_id">1065201</span>
+              <span class="group_weight"></span>
+              <span class="rules"></span>
+            </div>
+          </div>
+        </td>
+        <td class="possible points_possible">
+          10
+        </td>
+        <td class="details">
+          <a href="#"
+              class="toggle_final_grade_info tooltip"
+              aria-label="This assignment does not count toward the final grade."
+                aria-hidden='true'
+                role='presentation'
+                tabindex='-1'
+                style='visibility: hidden;'
+            >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">Grade Info</span>
+            </span>
+            <i class="icon-warning standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_comments_link tooltip"
+            aria-label="Read comments"
+            aria-describedby="comment_count_for_assignment_1065201"
+              aria-hidden='true'
+              role='presentation'
+              tabindex='-1'
+              style='visibility: hidden;'
+            >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text" id="comment_count_for_assignment_1065201">
+                0 comments
+              </span>
+            </span>
+            <i class="icon-discussion standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_score_details_link tooltip"
+            aria-label="See scoring details"
+            aria-hidden='true'
+            role='presentation'
+            tabindex='-1'
+            style='visibility: hidden;'
+          >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">See scoring details</span>
+            </span>
+            <i class="icon-check-plus standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_rubric_assessments_link tooltip"
+            aria-label="See rubric results"
+            aria-expanded='false'
+            aria-controls="rubric_1065201"
+            tabindex='0'
+            style="visibility: hidden;">
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">See rubric results</span>
+            </span>
+            <i class="icon-rubric"></i>
+          </a>
+        </td>
+      </tr>
+      <tr id="final_grade_info_1065201"
+          class="comments "
+          style="display: none;">
+      </tr>
+      <tr id="grade_info_1065201" class="comments grade_details " style="display: none;">
+        </td>
+      </tr>
+      <tr id="rubric_1065201" class="rubric_assessments " style="display: none;">
+      </tr>
+    <tr class="student_assignment editable"
+        data-muted="false"
+        id="submission_1065207"
+        >
+
+        <th class="title" scope="row">
+            <a href="/courses/106308/assignments/1065207/submissions/18485">8/25/21 Intro to Environmental Notes</a>
+            <div class="context">Assignments</div>
+        </th>
+        <td class="due">
+            Aug 25 by 11:59pm
+        </td>
+
+        <td class="status" scope="row">
+        </td>
+
+        <td class="assignment_score" title="Click to test a different score">
+          <div style="position: relative; height: 100%;" class="score_holder">
+              <span class="assignment_presenter_for_submission" style="display: none;"></span>
+              <span class="react_pill_container"></span>
+            <span class="tooltip">
+              <span
+                class="grade"
+                  tabindex="0"
+              >
+                <span class="tooltip_wrap right" aria-hidden="true">
+                    <span class="tooltip_text score_teaser">
+                        Click to test a different score
+                    </span>
+                </span>
+                  <span class="screenreader-only" role="button">
+                    Click to test a different score
+                  </span>
+                  -
+              </span>
+            </span>
+            <div style="display: none;">
+              <!-- Store the original points so we don't need to parse and guess at locale -->
+              <span class="original_points">
+                
+              </span>
+              <!-- Store the original score so that we can retrieve it after any "What-If" calculations -->
+              <span class="original_score">
+                 
+              </span>
+              <!-- Store the current score so that it can persist between multiple "What-If" calculations -->
+              <span class="what_if_score">
+                 
+              </span>
+              <!-- Load any previously saved "What-If" scores -->
+              <span class="student_entered_score">
+                
+              </span>
+              <span class="submission_status">
+                unsubmitted
+              </span>
+              <span class="assignment_group_id">142498</span>
+              <span class="assignment_id">1065207</span>
+              <span class="group_weight"></span>
+              <span class="rules"></span>
+            </div>
+          </div>
+        </td>
+        <td class="possible points_possible">
+          0
+        </td>
+        <td class="details">
+          <a href="#"
+              class="toggle_final_grade_info tooltip"
+              aria-label="This assignment does not count toward the final grade."
+                aria-hidden='true'
+                role='presentation'
+                tabindex='-1'
+                style='visibility: hidden;'
+            >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">Grade Info</span>
+            </span>
+            <i class="icon-warning standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_comments_link tooltip"
+            aria-label="Read comments"
+            aria-describedby="comment_count_for_assignment_1065207"
+              aria-hidden='true'
+              role='presentation'
+              tabindex='-1'
+              style='visibility: hidden;'
+            >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text" id="comment_count_for_assignment_1065207">
+                0 comments
+              </span>
+            </span>
+            <i class="icon-discussion standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_score_details_link tooltip"
+            aria-label="See scoring details"
+            aria-hidden='true'
+            role='presentation'
+            tabindex='-1'
+            style='visibility: hidden;'
+          >
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">See scoring details</span>
+            </span>
+            <i class="icon-check-plus standalone-icon"></i>
+          </a>
+          <a href="#"
+            class="toggle_rubric_assessments_link tooltip"
+            aria-label="See rubric results"
+            aria-expanded='false'
+            aria-controls="rubric_1065207"
+            tabindex='0'
+            style="visibility: hidden;">
+            <span class="tooltip_wrap right">
+              <span class="tooltip_text">See rubric results</span>
+            </span>
+            <i class="icon-rubric"></i>
+          </a>
+        </td>
+      </tr>
+      <tr id="final_grade_info_1065207"
+          class="comments "
+          style="display: none;">
+      </tr>
+      <tr id="grade_info_1065207" class="comments grade_details " style="display: none;">
+        </td>
+      </tr>
+      <tr id="rubric_1065207" class="rubric_assessments " style="display: none;">
+      </tr>
+    <tr class="student_assignment hard_coded group_total"
+        data-muted="true"
+        id="submission_group-142498"
+        >
+
+        <th class="title" scope="row">
+            Assignments
+        </th>
+        <td class="due">
+        </td>
+
+        <td class="status" scope="row">
+        </td>
+
+        <td class="assignment_score" title="">
+          <div style="position: relative; height: 100%;" class="score_holder">
+              <span class="assignment_presenter_for_submission" style="display: none;"></span>
+              <span class="react_pill_container"></span>
+            <span class="tooltip">
+              <span
+                class="grade"
+              >
+                <span class="tooltip_wrap right" aria-hidden="true">
+                    <span class="tooltip_text score_teaser">
+                        Instructor has not posted this grade
+                    </span>
+                </span>
+                  <i class="icon-off" title="Instructor has not posted this grade"></i>
+              </span>
+            </span>
+            <div style="display: none;">
+              <!-- Store the original points so we don't need to parse and guess at locale -->
+              <span class="original_points">
+                
+              </span>
+              <!-- Store the original score so that we can retrieve it after any "What-If" calculations -->
+              <span class="original_score">
+                
+              </span>
+              <!-- Store the current score so that it can persist between multiple "What-If" calculations -->
+              <span class="what_if_score">
+                
+              </span>
+              <!-- Load any previously saved "What-If" scores -->
+              <span class="student_entered_score">
+                
+              </span>
+              <span class="submission_status">
+                none
+              </span>
+              <span class="assignment_group_id">142498</span>
+              <span class="assignment_id">group-142498</span>
+              <span class="group_weight">0.0</span>
+              <span class="rules"></span>
+            </div>
+          </div>
+        </td>
+        <td class="possible points_possible">
+          
+        </td>
+        <td class="details">
+        </td>
+      </tr>
+      <tr id="final_grade_info_group-142498"
+          class="comments "
+          style="display: none;">
+      </tr>
+      <tr id="grade_info_group-142498" class="comments grade_details " style="display: none;">
+        </td>
+      </tr>
+      <tr id="rubric_group-142498" class="rubric_assessments " style="display: none;">
+      </tr>
+    <tr class="student_assignment hard_coded final_grade"
+        data-muted="true"
+        id="submission_final-grade"
+        >
+
+        <th class="title" scope="row">
+            Total
+        </th>
+        <td class="due">
+            
+        </td>
+
+        <td class="status" scope="row">
+        </td>
+
+        <td class="assignment_score" title="">
+          <div style="position: relative; height: 100%;" class="score_holder">
+              <span class="assignment_presenter_for_submission" style="display: none;"></span>
+              <span class="react_pill_container"></span>
+            <span class="tooltip">
+              <span
+                class="grade"
+              >
+                <span class="tooltip_wrap right" aria-hidden="true">
+                    <span class="tooltip_text score_teaser">
+                        Instructor has not posted this grade
+                    </span>
+                </span>
+                  <i class="icon-off" title="Instructor has not posted this grade"></i>
+              </span>
+            </span>
+            <div style="display: none;">
+              <!-- Store the original points so we don't need to parse and guess at locale -->
+              <span class="original_points">
+                
+              </span>
+              <!-- Store the original score so that we can retrieve it after any "What-If" calculations -->
+              <span class="original_score">
+                
+              </span>
+              <!-- Store the current score so that it can persist between multiple "What-If" calculations -->
+              <span class="what_if_score">
+                
+              </span>
+              <!-- Load any previously saved "What-If" scores -->
+              <span class="student_entered_score">
+                
+              </span>
+              <span class="submission_status">
+                none
+              </span>
+              <span class="assignment_group_id"></span>
+              <span class="assignment_id">final-grade</span>
+              <span class="group_weight"></span>
+              <span class="rules"></span>
+            </div>
+          </div>
+        </td>
+        <td class="possible points_possible">
+          
+        </td>
+        <td class="details">
+        </td>
+      </tr>
+      <tr id="final_grade_info_final-grade"
+          class="comments "
+          style="display: none;">
+      </tr>
+      <tr id="grade_info_final-grade" class="comments grade_details " style="display: none;">
+        </td>
+      </tr>
+      <tr id="rubric_final-grade" class="rubric_assessments " style="display: none;">
+      </tr>
+  </table>
+  </div>
+  <div id="total_groups_weight" style="display: none;">0</div>
+  
+<div id="rubric_long_description_dialog" style="display: none;">
+  <div class="editing">
+    <form id="edit_criterion_form" class="no-margin-bottom">
+      <div>
+        <label class="rating_form_label">Description
+          <textarea class="description" rows="1" name="description"></textarea>
+        </label>
+      </div>
+      <div>
+        <label class="rating_form_label">Long Description
+          <textarea class="long_description" rows="4" name="long_description"></textarea>
+        </label>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn save_button btn-primary">Update Criterion</button>
+      </div>
+    </form>
+  </div>
+  <div class="displaying">
+    <div class="long_description">
+    </div>
+  </div>
+</div>
+<div id="rubric_criterion_comments_dialog" style="display: none;">
+  <div
+    class="criterion_description"
+    style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;"
+    tabindex="-1"
+  ></div>
+  <div class="editing">
+    <label for="criterion_comments_textarea">
+      Additional Comments:
+    </label>
+    <textarea
+      id="criterion_comments_textarea"
+      class="criterion_comments"
+      name="criterion_comments"
+      style="width: 370px;"></textarea>
+    <div class="button-container">
+      <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+      <button type="button" class="btn save_button">Update Comments</button>
+    </div>
+  </div>
+  <div class="displaying">
+    Additional Comments:
+    <div class="criterion_comments" style="margin-top: 10px;">
+    </div>
+  </div>
+</div>
+<div id="rubric_rating_dialog" style="display: none;">
+  <div class="description" style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">
+    <span id="edit_rating_form_criterion_description"></span>
+  </div>
+  <div class="editing">
+    <form id="edit_rating_form" class="no-margin-bottom">
+      <div class="toggle_for_hide_points">
+        <div><label id='rating_form_score_label' class="rating_form_label">Rating Score</label></div>
+        <span id='rating_form_max_score_label' hidden>Rating max score</span>
+        <input id="points" aria-labelledby="rating_form_score_label" type="text" size="2" name="points" class="no-margin-bottom span1" />
+        <span class="range_rating">to >
+          <input aria-label="Rating min score" type="text" size="2" name="min_points" class="no-margin-bottom span1 min_points" placeholder="min"/>
+        </span>pts
+      </div>
+      <div>
+        <label for="rating_form_title" class="rating_form_label">Rating Title</label>
+        <input id="rating_form_title" type="text" class="rating_description" style="width: 90%;" name="description"/>
+      </div>
+      <div>
+        <label for="rating_form_description" class="rating_form_label">Rating Description</label>
+        <textarea id="rating_form_description" rows="4" style="width: 90%;" class="rating_long_description" name="rating_long_description" form="edit_rating_form"></textarea>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn btn-primary save_button ok_button">Update Rating</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+  <input type="text" style="width: 40px; display: none;" id="grade_entry" title="Enter a score to test"/>
+  <a href="#" id="revert_score_template" class="revert_score_link" title="Revert to original score"><i class="icon-reply-2"></i></a>
+  <a href="/courses/106308/assignments/%7B%7B%20assignment_id%20%7D%7D/submissions/18485" class="update_submission_url" style="display: none;">&nbsp;</a>
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+                <div id="student-grades-right-content" style="display: none;">
+        <div class="student_assignment final_grade">
+          Total: <span class="grade"></span>
+        </div>
+          <div id="student-grades-whatif" class="show_guess_grades student-grades-revert-guess-button">
+            <button type="button" class="btn button-sidebar-wide show_guess_grades_link"> <i class="icon-check-plus"></i> Show Saved &quot;What-If&quot; Scores</button>
+          </div>
+          <div id="student-grades-revert" class="revert_all_scores student-grades-revert-guess-button">
+            *NOTE*: This is NOT your official score.<br/>
+            <button href="#" id="revert-all-to-actual-score" class="btn revert_all_scores_link"><i class="icon-reply-2"></i> Revert to Actual Score</button>
+          </div>
+      <div id="student-grades-show-all" class="show_all_details">
+        <button type="button" class="Button" id="show_all_details_button">Show All Details</button>
+      </div>
+      <div id="assignments-not-weighted">
+          
+<div role="complementary" aria-label="Assignment Weights">
+  <h2>Course assignments are not weighted.</h2>
+</div>
+
+          <div id="only_consider_graded_assignments_wrapper" class="ic-Form-control ic-Form-control--checkbox">
+            <input type="checkbox" id="only_consider_graded_assignments" checked="true"/>
+            <label class="ic-Label" for="only_consider_graded_assignments">Calculate based only on graded assignments</label>
+          </div>
+      </div>
+        <div id="whatif-score-description">
+          You can view your grades based on What-If scores so that you know how grades will be affected by upcoming or resubmitted assignments. You can test scores for an assignment that already includes a score, or an assignment that has yet to be graded.
+        </div>
+    </div>
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">d65c57c1-3440-439d-90a6-15a1be485daf</div>
+    </div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <div id='StudentTray__Container'></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/inst_fs_service_worker-c-7c4b96c471.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  
+
+</div> <!-- #application -->
+</body>
+</html>
